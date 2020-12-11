@@ -9,7 +9,8 @@ namespace AdventOfCode2018
     {
         public static int PartOne()
         {
-            string[] inputLines = System.IO.File.ReadAllLines("inputDay2.txt");
+            System.DateTime start = System.DateTime.Now;
+            string[] inputLines = System.IO.File.ReadAllLines("inputDay3.txt");
             int twos = 0;
             int threes = 0;
             Dictionary<char, int> charCountDic = new Dictionary<char, int>();
@@ -33,28 +34,50 @@ namespace AdventOfCode2018
                 charCountDic.Clear();
             }
 
+            System.TimeSpan duration = System.DateTime.Now - start;
+            Console.WriteLine(string.Format("Part 1: Time spent: {0} milliseconds", duration.TotalMilliseconds));
             return twos * threes;
         }
 
-        public static int PartTwo()
+        public static string PartTwo()
         {
-            string[] inputLines = System.IO.File.ReadAllLines("inputDay2.txt");
-            int v = 0;
-            StringBuilder sb = new StringBuilder();
-            foreach (var i in inputLines) 
-            {
-                foreach (var j in inputLines)
-                {
-                    for (int a = 0; a < i.Length; a++)
-                    {
-                        if (i[a] != j[a])
-                        {
 
+            System.DateTime start = System.DateTime.Now;
+            string[] inputLines = System.IO.File.ReadAllLines("inputDay2.txt");
+            int d = 0;
+            StringBuilder sb = new StringBuilder();
+            foreach (var lines1 in inputLines)
+            {
+                foreach (var lines2 in inputLines)
+                {
+                    for (var i = 0; i < lines1.Length; i++)
+                    {
+                        if (lines1[i] != lines2[i])
+                        {
+                            if (++d > 1)
+                            {
+                                break;
+                            }
+                        }
+                        else
+                        {
+                            sb.Append(lines1[i]);
                         }
                     }
+
+                    if (d == 1)
+                    {
+                        System.TimeSpan duration = System.DateTime.Now - start;
+                        Console.WriteLine(string.Format("Part 1: Time spent: {0} milliseconds", duration.TotalMilliseconds));
+                        return sb.ToString();
+                    }
+
+                    d = 0;
+                    sb.Clear();
                 }
             }
-            return 0;
+
+            return "error";
         }
     }
 }

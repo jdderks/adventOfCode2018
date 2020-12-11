@@ -14,12 +14,9 @@ namespace AdventOfCode2018
             Console.WriteLine("");
             Console.WriteLine("Day 2 part 1 answer: " + Day2.PartOne());
             Console.WriteLine("Day 2 part 2 answer: " + Day2.PartTwo());
-
-
-
-
-
-
+            Console.WriteLine("");
+            Console.WriteLine("Day 3 part 1 answer: " + Day3.PartOne());
+            Console.WriteLine("Day 3 part 2 answer: " + Day3.PartTwo());
         }
     }
 }

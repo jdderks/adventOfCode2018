@@ -1,0 +1,13 @@
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\obj\Release\netcoreapp3.1\AdventOfCode2018.csprojAssemblyReference.cache
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\obj\Release\netcoreapp3.1\AdventOfCode2018.AssemblyInfoInputs.cache
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\obj\Release\netcoreapp3.1\AdventOfCode2018.AssemblyInfo.cs
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\obj\Release\netcoreapp3.1\AdventOfCode2018.csproj.CoreCompileInputs.cache
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\bin\Release\netcoreapp3.1\AdventOfCode2018.exe
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\bin\Release\netcoreapp3.1\AdventOfCode2018.deps.json
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\bin\Release\netcoreapp3.1\AdventOfCode2018.runtimeconfig.json
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\bin\Release\netcoreapp3.1\AdventOfCode2018.runtimeconfig.dev.json
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\bin\Release\netcoreapp3.1\AdventOfCode2018.dll
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\bin\Release\netcoreapp3.1\AdventOfCode2018.pdb
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\obj\Release\netcoreapp3.1\AdventOfCode2018.dll
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\obj\Release\netcoreapp3.1\AdventOfCode2018.pdb
+C:\Users\j_d_d\source\repos\AdventOfCode2018\AdventOfCode2018\obj\Release\netcoreapp3.1\AdventOfCode2018.genruntimeconfig.cache
